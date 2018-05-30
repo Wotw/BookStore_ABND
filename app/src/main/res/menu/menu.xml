@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.bookstore_abnd.MainActivity">
+
+    <item
+        android:id="@+id/add_dummie"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_add_test"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_add"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_delete"
+        app:showAsAction="never" />
+
+</menu>
